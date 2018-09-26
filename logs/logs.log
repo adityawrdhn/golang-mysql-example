@@ -1,0 +1,527 @@
+2018/07/11 09:26:03.743 [C] [asm_amd64.s:2361] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 8276
+2018/07/11 10:21:02.208 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:21:02] "GET /v1/user/auth HTTP/1.1 401 0" 0.047956  PostmanRuntime/7.1.5
+
+2018/07/11 10:26:26.821 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:26:26] "POST /v1/user/register HTTP/1.1 403 0" 0.124861  PostmanRuntime/7.1.5
+
+2018/07/11 10:26:45.100 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:26:45] "POST /v1/user/register HTTP/1.1 403 0" 0.045877  PostmanRuntime/7.1.5
+
+2018/07/11 10:27:06.546 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:27:06] "POST /v1/user/register HTTP/1.1 403 0" 0.053892  PostmanRuntime/7.1.5
+
+2018/07/11 10:28:18.254 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:28:18] "POST /v1/user/register HTTP/1.1 403 0" 0.003989  PostmanRuntime/7.1.5
+
+2018/07/11 10:29:50.215 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:29:50] "POST /v1/user/register HTTP/1.1 403 0" 0.004989  PostmanRuntime/7.1.5
+
+2018/07/11 10:32:16.437 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:32:16] "POST /v1/user/register HTTP/1.1 403 0" 0.001994  PostmanRuntime/7.1.5
+
+2018/07/11 10:32:28.806 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:32:28] "POST /v1/user/register HTTP/1.1 403 0" 0.031915  PostmanRuntime/7.1.5
+
+2018/07/11 10:34:19.612 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:34:19] "POST /v1/user/register HTTP/1.1 200 0" 0.016956  PostmanRuntime/7.1.5
+
+2018/07/11 10:34:40.281 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:34:40] "POST /v1/user/register HTTP/1.1 200 0" 0.005979  PostmanRuntime/7.1.5
+
+2018/07/11 10:34:58.868 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:34:58] "POST /v1/user/register HTTP/1.1 200 0" 0.002992  PostmanRuntime/7.1.5
+
+2018/07/11 10:36:02.451 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:36:02] "POST /v1/user/register HTTP/1.1 200 0" 0.002992  PostmanRuntime/7.1.5
+
+2018/07/11 10:36:13.155 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:36:13] "POST /v1/user/register HTTP/1.1 200 0" 0.002993  PostmanRuntime/7.1.5
+
+2018/07/11 10:36:22.305 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:36:22] "POST /v1/user/register HTTP/1.1 403 0" 0.003993  PostmanRuntime/7.1.5
+
+2018/07/11 10:37:13.504 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:37:13] "POST /v1/user/register HTTP/1.1 403 0" 0.001995  PostmanRuntime/7.1.5
+
+2018/07/11 10:38:26.357 [D] [server.go:2694] 127.0.0.1 - - [11/Jul/2018 10:38:26] "POST /v1/user/register HTTP/1.1 403 0" 0.014958  PostmanRuntime/7.1.5
+
+2018/07/11 10:42:46.949 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:42:46] "POST /v1/user/register HTTP/1.1 403 0" 0.003991  PostmanRuntime/7.1.5
+
+2018/07/11 10:43:48.407 [D] [server.go:2694] 127.0.0.1 - - [11/Jul/2018 10:43:48] "POST /v1/user/register HTTP/1.1 403 0" 0.012119  PostmanRuntime/7.1.5
+
+2018/07/11 10:45:37.542 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:45:37] "POST /v1/user/register HTTP/1.1 403 0" 0.003990  PostmanRuntime/7.1.5
+
+2018/07/11 10:46:29.335 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:46:29] "POST /v1/user/register HTTP/1.1 403 0" 0.005985  PostmanRuntime/7.1.5
+
+2018/07/11 10:47:50.632 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:47:50] "POST /v1/user/register HTTP/1.1 403 0" 0.000997  PostmanRuntime/7.1.5
+
+2018/07/11 10:48:12.218 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:48:12] "POST /v1/user/register HTTP/1.1 403 0" 0.006992  PostmanRuntime/7.1.5
+
+2018/07/11 10:48:35.401 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:48:35] "POST /v1/user/register HTTP/1.1 403 0" 0.001995  PostmanRuntime/7.1.5
+
+2018/07/11 10:48:40.290 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:48:40] "POST /v1/user/register HTTP/1.1 403 0" 0.002992  PostmanRuntime/7.1.5
+
+2018/07/11 10:49:02.204 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:49:02] "POST /v1/user/register HTTP/1.1 403 0" 0.005984  PostmanRuntime/7.1.5
+
+2018/07/11 10:49:25.897 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:49:25] "POST /v1/user/register HTTP/1.1 403 0" 0.003990  PostmanRuntime/7.1.5
+
+2018/07/11 10:50:58.187 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:50:58] "POST /v1/user/register HTTP/1.1 403 0" 0.004987  PostmanRuntime/7.1.5
+
+2018/07/11 10:51:04.905 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:51:04] "POST /v1/user/register HTTP/1.1 403 0" 0.000998  PostmanRuntime/7.1.5
+
+2018/07/11 10:52:10.548 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:52:10] "POST /v1/user/register HTTP/1.1 403 0" 0.002993  PostmanRuntime/7.1.5
+
+2018/07/11 10:53:09.653 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:53:09] "POST /v1/user/register HTTP/1.1 403 0" 0.001000  PostmanRuntime/7.1.5
+
+2018/07/11 10:53:19.202 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:53:19] "POST /v1/user/register HTTP/1.1 200 0" 0.002994  PostmanRuntime/7.1.5
+
+2018/07/11 10:53:30.370 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:53:27] "POST /v1/user/register HTTP/1.1 200 0" 2.965073  PostmanRuntime/7.1.5
+
+2018/07/11 10:53:54.229 [D] [server.go:2694] ::1 - - [11/Jul/2018 10:53:54] "POST /v1/user/register HTTP/1.1 200 0" 0.217425  PostmanRuntime/7.1.5
+
+2018/07/11 11:10:01.935 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:10:01] "POST /v1/user/register HTTP/1.1 200 0" 0.116491  PostmanRuntime/7.1.5
+
+2018/07/11 11:17:59.447 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:17:59] "POST /v1/user/register HTTP/1.1 403 0" 0.001996  PostmanRuntime/7.1.5
+
+2018/07/11 11:27:44.198 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:27:44] "POST /v1/user/register HTTP/1.1 403 0" 0.003991  PostmanRuntime/7.1.5
+
+2018/07/11 11:28:25.250 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:28:25] "POST /v1/user/register HTTP/1.1 200 0" 0.004987  PostmanRuntime/7.1.5
+
+2018/07/11 11:29:34.731 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:29:34] "POST /v1/user/register HTTP/1.1 200 0" 0.003989  PostmanRuntime/7.1.5
+
+2018/07/11 11:31:06.006 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:31:06] "POST /v1/user/register HTTP/1.1 200 0" 0.003990  PostmanRuntime/7.1.5
+
+2018/07/11 11:31:29.012 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:31:29] "POST /v1/user/register HTTP/1.1 403 0" 0.006739  PostmanRuntime/7.1.5
+
+2018/07/11 11:31:39.685 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:31:39] "POST /v1/user/register HTTP/1.1 403 0" 0.000999  PostmanRuntime/7.1.5
+
+2018/07/11 11:33:00.290 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:33:00] "POST /v1/user/register HTTP/1.1 201 0" 0.191662  PostmanRuntime/7.1.5
+
+2018/07/11 11:33:38.207 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:33:38] "GET /v1/user/ HTTP/1.1 401 0" 0.002991  PostmanRuntime/7.1.5
+
+2018/07/11 11:33:44.082 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:33:44] "GET /v1/user/ HTTP/1.1 401 0" 0.000998  PostmanRuntime/7.1.5
+
+2018/07/11 11:33:52.745 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:33:52] "GET /v1/user/ HTTP/1.1 401 0" 0.003653  PostmanRuntime/7.1.5
+
+2018/07/11 11:34:04.380 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:34:04] "GET /v1/user/ HTTP/1.1 401 0" 0.002990  PostmanRuntime/7.1.5
+
+2018/07/11 11:34:10.033 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:34:10] "GET /v1/user/1 HTTP/1.1 401 0" 0.001000  PostmanRuntime/7.1.5
+
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] the request url is  /v1/user/
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Gender err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:194
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:147
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:137
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:24
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/controller.go:175
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:843
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 11:34:28.324 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 11:35:06.649 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:35:06] "GET /v1/user/1 HTTP/1.1 200 0" 0.008974  PostmanRuntime/7.1.5
+
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] the request url is  /v1/user/login
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Gender err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:88
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:177
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:294
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:447
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:308
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:847
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 11:35:44.533 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 11:37:55.533 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:37:55] "POST /v1/user/login HTTP/1.1 200 0" 0.288437  PostmanRuntime/7.1.5
+
+2018/07/11 11:38:03.014 [C] [asm_amd64.s:573] the request url is  /v1/user/
+2018/07/11 11:38:03.014 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Gender err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:194
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:147
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:137
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:24
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/controller.go:175
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:843
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 11:38:03.015 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 11:38:25.024 [C] [asm_amd64.s:573] the request url is  /v1/user/login
+2018/07/11 11:38:25.024 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Gender err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 11:38:25.024 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:38:25.024 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 11:38:25.024 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 11:38:25.024 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 11:38:25.024 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:88
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:177
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:294
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:447
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:308
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:847
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 11:38:25.025 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] the request url is  /v1/user/login
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:88
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:177
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:294
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:447
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:308
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:847
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 11:39:32.194 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] the request url is  /v1/user/login
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:88
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:177
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:294
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:447
+2018/07/11 11:40:57.140 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:308
+2018/07/11 11:40:57.141 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:847
+2018/07/11 11:40:57.141 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 11:40:57.141 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 11:40:57.141 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 11:41:17.912 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:41:17] "POST /v1/user/register HTTP/1.1 403 0" 0.005926  PostmanRuntime/7.1.5
+
+2018/07/11 11:41:57.834 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:41:57] "POST /v1/user/register HTTP/1.1 403 0" 0.003990  PostmanRuntime/7.1.5
+
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] the request url is  /v1/user/login
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:88
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:177
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:294
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:447
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:308
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:847
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 11:42:18.372 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 11:43:16.017 [D] [server.go:2694] ::1 - - [11/Jul/2018 11:43:15] "POST /v1/user/register HTTP/1.1 200 0" 0.117685  PostmanRuntime/7.1.5
+
+2018/07/11 14:03:23.919 [C] [asm_amd64.s:2361] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 13408
+2018/07/11 14:04:09.319 [D] [server.go:2694] ::1 - - [11/Jul/2018 02:04:09] "POST /v1/user/register HTTP/1.1 404 0" 0.050863  PostmanRuntime/7.1.5
+
+2018/07/11 14:05:42.265 [D] [server.go:2694] ::1 - - [11/Jul/2018 02:05:42] "POST /v1/user/register HTTP/1.1 201 0" 0.136706  PostmanRuntime/7.1.5
+
+2018/07/11 14:05:58.320 [D] [server.go:2694] ::1 - - [11/Jul/2018 02:05:58] "POST /v1/user/login HTTP/1.1 200 0" 0.154670  PostmanRuntime/7.1.5
+
+2018/07/11 15:26:26.479 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:26:26] "GET /v1/user/ HTTP/1.1 200 0" 0.005243  PostmanRuntime/7.1.5
+
+2018/07/11 15:26:41.948 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:26:41] "GET /v1/user/1 HTTP/1.1 200 0" 0.007044  PostmanRuntime/7.1.5
+
+2018/07/11 15:26:46.905 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:26:46] "GET /v1/user/0 HTTP/1.1 200 0" 0.008027  PostmanRuntime/7.1.5
+
+2018/07/11 15:27:16.980 [C] [asm_amd64.s:573] the request url is  /v1/user/2
+2018/07/11 15:27:16.980 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 15:27:16.980 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 15:27:16.980 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 15:27:16.980 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 15:27:16.980 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:79
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:169
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:23
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/controller.go:175
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:843
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 15:27:16.981 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 15:31:25.767 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:31:25] "GET /v1/user/2 HTTP/1.1 200 0" 0.004771  PostmanRuntime/7.1.5
+
+2018/07/11 15:33:02.167 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:33:01] "POST /v1/user/register HTTP/1.1 201 0" 0.177437  PostmanRuntime/7.1.5
+
+2018/07/11 15:33:25.377 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:33:25] "GET /v1/user/2 HTTP/1.1 200 0" 0.005175  PostmanRuntime/7.1.5
+
+2018/07/11 15:33:29.668 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:33:29] "GET /v1/user/2 HTTP/1.1 200 0" 0.008339  PostmanRuntime/7.1.5
+
+2018/07/11 15:33:34.220 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:33:34] "GET /v1/user/3 HTTP/1.1 200 0" 0.010375  PostmanRuntime/7.1.5
+
+2018/07/11 15:43:41.037 [C] [asm_amd64.s:2361] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 17152
+2018/07/11 15:45:17.952 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:45:17] "POST /v1/user/login HTTP/1.1 200 0" 0.924074  PostmanRuntime/7.1.5
+
+2018/07/11 15:45:44.618 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:45:44] "GET /v1/user/3 HTTP/1.1 200 0" 0.007977  PostmanRuntime/7.1.5
+
+2018/07/11 15:45:50.604 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:45:50] "GET /v1/user/ HTTP/1.1 200 0" 0.003719  PostmanRuntime/7.1.5
+
+2018/07/11 15:45:51.064 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:45:51] "GET /v1/user/ HTTP/1.1 200 0" 0.010470  PostmanRuntime/7.1.5
+
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] the request url is  /v1/user/2
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:79
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:169
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:23
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/controller.go:175
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:843
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 15:45:56.378 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 15:45:56.379 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 15:46:05.039 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:46:05] "GET /v1/user/3 HTTP/1.1 200 0" 0.011342  PostmanRuntime/7.1.5
+
+2018/07/11 15:46:09.313 [C] [asm_amd64.s:573] the request url is  /v1/user/2
+2018/07/11 15:46:09.313 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 15:46:09.313 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:79
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:169
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:23
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/controller.go:175
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:843
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 15:46:09.314 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 15:46:43.864 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:46:43] "GET /v1/user/ HTTP/1.1 200 0" 0.004439  PostmanRuntime/7.1.5
+
+2018/07/11 15:46:46.934 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:46:46] "GET /v1/user/2 HTTP/1.1 200 0" 0.000996  PostmanRuntime/7.1.5
+
+2018/07/11 15:46:50.862 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:46:50] "GET /v1/user/3 HTTP/1.1 200 0" 0.002415  PostmanRuntime/7.1.5
+
+2018/07/11 15:46:55.429 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:46:55] "GET /v1/user/2 HTTP/1.1 200 0" 0.008975  PostmanRuntime/7.1.5
+
+2018/07/11 15:49:13.986 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:49:13] "POST /v1/user/updateAccount HTTP/1.1 404 0" 0.004928  PostmanRuntime/7.1.5
+
+2018/07/11 15:49:49.984 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:49:49] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.008975  PostmanRuntime/7.1.5
+
+2018/07/11 15:53:23.965 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:53:23] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.005984  PostmanRuntime/7.1.5
+
+2018/07/11 15:54:19.556 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:54:19] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.007421  PostmanRuntime/7.1.5
+
+2018/07/11 15:56:36.117 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:56:36] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.016168  PostmanRuntime/7.1.5
+
+2018/07/11 15:58:01.044 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:58:01] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.005660  PostmanRuntime/7.1.5
+
+2018/07/11 15:58:02.941 [D] [server.go:2694] ::1 - - [11/Jul/2018 03:58:02] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.002143  PostmanRuntime/7.1.5
+
+2018/07/11 16:02:54.324 [D] [server.go:2694] ::1 - - [11/Jul/2018 04:02:54] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.003776  PostmanRuntime/7.1.5
+
+2018/07/11 16:04:19.050 [D] [server.go:2694] ::1 - - [11/Jul/2018 04:04:19] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.008684  PostmanRuntime/7.1.5
+
+2018/07/11 16:05:54.694 [D] [server.go:2694] ::1 - - [11/Jul/2018 04:05:54] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.009034  PostmanRuntime/7.1.5
+
+2018/07/11 16:07:33.959 [D] [server.go:2694] ::1 - - [11/Jul/2018 04:07:33] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.009819  PostmanRuntime/7.1.5
+
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] the request url is  /v1/user/updateAccount
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] Handler crashed with error <Ormer> cannot use non-ptr model struct `apigetspot/models.User`
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm.go:104
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm.go:124
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:318
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:297
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 16:12:06.930 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:447
+2018/07/11 16:12:06.931 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:308
+2018/07/11 16:12:06.931 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:847
+2018/07/11 16:12:06.931 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 16:12:06.931 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 16:12:06.931 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 16:14:27.970 [D] [server.go:2694] ::1 - - [11/Jul/2018 04:14:27] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.006881  PostmanRuntime/7.1.5
+
+2018/07/11 16:19:56.798 [D] [server.go:2694] ::1 - - [11/Jul/2018 04:19:56] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.005171  PostmanRuntime/7.1.5
+
+2018/07/11 16:24:01.966 [D] [server.go:2694] ::1 - - [11/Jul/2018 04:24:01] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.004254  PostmanRuntime/7.1.5
+
+2018/07/11 16:24:48.661 [D] [server.go:2694] ::1 - - [11/Jul/2018 04:24:48] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.009214  PostmanRuntime/7.1.5
+
+2018/07/11 19:00:42.377 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:00:42] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.010969  PostmanRuntime/7.1.5
+
+2018/07/11 19:01:58.104 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:01:58] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.012019  PostmanRuntime/7.1.5
+
+2018/07/11 19:03:38.477 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:03:38] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.003766  PostmanRuntime/7.1.5
+
+2018/07/11 19:06:41.188 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:06:41] "PUT /v1/user/ HTTP/1.1 404 0" 0.005586  PostmanRuntime/7.1.5
+
+2018/07/11 19:06:57.721 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:06:57] "PUT /v1/user/2 HTTP/1.1 200 0" 0.008357  PostmanRuntime/7.1.5
+
+2018/07/11 19:09:09.904 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:09:09] "PUT /v1/user HTTP/1.1 404 0" 0.004031  PostmanRuntime/7.1.5
+
+2018/07/11 19:09:22.354 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:09:22] "PUT /v1/user/2 HTTP/1.1 200 0" 0.113188  PostmanRuntime/7.1.5
+
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] the request url is  /v1/user/2
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:79
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:169
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:23
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/controller.go:175
+2018/07/11 19:09:49.221 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:843
+2018/07/11 19:09:49.222 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 19:09:49.222 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 19:09:49.222 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 19:09:59.834 [C] [asm_amd64.s:573] the request url is  /v1/user/2
+2018/07/11 19:09:59.834 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 19:09:59.835 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 19:09:59.835 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 19:09:59.835 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 19:09:59.836 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 19:09:59.836 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 19:09:59.836 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:79
+2018/07/11 19:09:59.836 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:169
+2018/07/11 19:09:59.836 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:23
+2018/07/11 19:09:59.841 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/controller.go:175
+2018/07/11 19:09:59.841 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:843
+2018/07/11 19:09:59.842 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 19:09:59.842 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 19:09:59.842 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 19:10:13.609 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:10:13] "GET /v1/user/ HTTP/1.1 200 0" 0.013416  PostmanRuntime/7.1.5
+
+2018/07/11 19:10:28.277 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:10:28] "GET /v1/user/1 HTTP/1.1 200 0" 0.007138  PostmanRuntime/7.1.5
+
+2018/07/11 19:10:33.071 [C] [asm_amd64.s:573] the request url is  /v1/user/2
+2018/07/11 19:10:33.071 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:79
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:169
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:23
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/controller.go:175
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:843
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/11 19:10:33.072 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/11 19:20:20.055 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:20:20] "GET /v1/user/2 HTTP/1.1 200 0" 0.005778  PostmanRuntime/7.1.5
+
+2018/07/11 19:20:34.940 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:20:34] "POST /v1/user/register HTTP/1.1 200 0" 0.194833  PostmanRuntime/7.1.5
+
+2018/07/11 19:22:33.731 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:22:33] "POST /v1/user/register HTTP/1.1 200 0" 0.270280  PostmanRuntime/7.1.5
+
+2018/07/11 19:23:58.249 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:23:58] "POST /v1/user/register HTTP/1.1 200 0" 0.209134  PostmanRuntime/7.1.5
+
+2018/07/11 19:25:10.493 [C] [asm_amd64.s:2361] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 2196
+2018/07/11 19:25:27.267 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:25:27] "POST /v1/user/register HTTP/1.1 200 0" 0.193496  PostmanRuntime/7.1.5
+
+2018/07/11 19:33:38.286 [D] [server.go:2694] ::1 - - [11/Jul/2018 07:33:38] "POST /v1/user/register HTTP/1.1 200 0" 0.120473  PostmanRuntime/7.1.5
+
+2018/07/11 20:44:35.583 [C] [asm_amd64.s:2361] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 2848
+2018/07/11 20:44:59.928 [D] [server.go:2694] ::1 - - [11/Jul/2018 08:44:59] "POST /v1/user/register HTTP/1.1 200 0" 0.729795  PostmanRuntime/7.1.5
+
+2018/07/11 21:35:19.906 [D] [server.go:2694] ::1 - - [11/Jul/2018 09:35:19] "POST /v1/user/register HTTP/1.1 200 0" 0.205232  PostmanRuntime/7.1.5
+
+2018/07/11 21:36:09.936 [D] [server.go:2694] ::1 - - [11/Jul/2018 09:36:09] "POST /v1/user/register HTTP/1.1 200 0" 0.116991  PostmanRuntime/7.1.5
+
+2018/07/11 21:40:30.130 [D] [server.go:2694] ::1 - - [11/Jul/2018 09:40:30] "POST /v1/user/register HTTP/1.1 200 0" 0.111618  PostmanRuntime/7.1.5
+
+2018/07/11 21:43:18.850 [D] [server.go:2694] ::1 - - [11/Jul/2018 09:43:18] "POST /v1/user/register HTTP/1.1 200 0" 0.094378  PostmanRuntime/7.1.5
+
+2018/07/11 21:47:54.485 [D] [server.go:2694] ::1 - - [11/Jul/2018 09:47:53] "POST /v1/user/register HTTP/1.1 200 0" 0.656378  PostmanRuntime/7.1.5
+
+2018/07/11 21:54:10.274 [D] [server.go:2694] ::1 - - [11/Jul/2018 09:54:10] "POST /v1/user/register HTTP/1.1 200 0" 0.248106  PostmanRuntime/7.1.5
+
+2018/07/12 08:56:01.058 [D] [server.go:2694] ::1 - - [12/Jul/2018 08:56:00] "POST /v1/user/register HTTP/1.1 201 0" 0.118508  PostmanRuntime/7.1.5
+
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] the request url is  /v1/user/login
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] Handler crashed with error Raw value: `[]` convert to `*int` failed, field: apigetspot/models.User.Status err: strconv.ParseInt: parsing "": invalid syntax
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1190
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/db.go:1005
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:88
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:177
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:323
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:447
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:308
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:847
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/12 08:57:01.300 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/12 09:01:12.508 [D] [server.go:2694] ::1 - - [12/Jul/2018 09:01:12] "POST /v1/user/register HTTP/1.1 201 0" 0.292895  PostmanRuntime/7.1.5
+
+2018/07/12 09:01:17.134 [D] [server.go:2694] ::1 - - [12/Jul/2018 09:01:16] "POST /v1/user/login HTTP/1.1 200 0" 0.150824  PostmanRuntime/7.1.5
+
+2018/07/12 09:02:32.533 [D] [server.go:2694] ::1 - - [12/Jul/2018 09:02:32] "PUT /v1/user/ HTTP/1.1 404 0" 0.002991  PostmanRuntime/7.1.5
+
+2018/07/12 09:02:51.181 [D] [server.go:2694] ::1 - - [12/Jul/2018 09:02:51] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.004960  PostmanRuntime/7.1.5
+
+2018/07/12 09:08:37.933 [D] [server.go:2694] ::1 - - [12/Jul/2018 09:08:37] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.004987  PostmanRuntime/7.1.5
+
+2018/07/12 09:14:47.768 [C] [asm_amd64.s:573] the request url is  /v1/user/updateAccount
+2018/07/12 09:14:47.768 [C] [asm_amd64.s:573] Handler crashed with error <Ormer> cannot use non-ptr model struct `apigetspot/models.User`
+2018/07/12 09:14:47.768 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/12 09:14:47.768 [C] [asm_amd64.s:573] C:/Go/src/runtime/panic.go:502
+2018/07/12 09:14:47.768 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm.go:104
+2018/07/12 09:14:47.768 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/orm/orm.go:232
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/models/user.go:327
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/apigetspot/controllers/user.go:297
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:573
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:447
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Go/src/reflect/value.go:308
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Users/Aditya/go/src/github.com/astaxie/beego/router.go:847
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:2694
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Go/src/net/http/server.go:1830
+2018/07/12 09:14:47.769 [C] [asm_amd64.s:573] C:/Go/src/runtime/asm_amd64.s:2361
+2018/07/12 09:27:08.345 [D] [server.go:2694] ::1 - - [12/Jul/2018 09:27:07] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.352533  PostmanRuntime/7.1.5
+
+2018/07/12 09:36:07.359 [D] [server.go:2694] ::1 - - [12/Jul/2018 09:36:02] "GET /v1/user/ HTTP/1.1 200 0" 4.530609  PostmanRuntime/7.1.5
+
+2018/07/12 11:13:01.555 [D] [server.go:2694] ::1 - - [12/Jul/2018 11:13:01] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.484820  PostmanRuntime/7.1.5
+
+2018/07/12 11:14:21.551 [D] [server.go:2694] ::1 - - [12/Jul/2018 11:14:21] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.016342  PostmanRuntime/7.1.5
+
+2018/07/12 11:16:27.701 [D] [server.go:2694] ::1 - - [12/Jul/2018 11:16:27] "POST /v1/user/register HTTP/1.1 403 0" 0.014272  PostmanRuntime/7.1.5
+
+2018/07/12 11:16:53.567 [D] [server.go:2694] ::1 - - [12/Jul/2018 11:16:52] "POST /v1/user/register HTTP/1.1 201 0" 0.668623  PostmanRuntime/7.1.5
+
+2018/07/12 11:17:12.491 [D] [server.go:2694] ::1 - - [12/Jul/2018 11:17:12] "PUT /v1/user/updateAccount HTTP/1.1 403 0" 0.011837  PostmanRuntime/7.1.5
+
+2018/07/12 11:17:20.676 [D] [server.go:2694] ::1 - - [12/Jul/2018 11:17:20] "PUT /v1/user/updateAccount HTTP/1.1 200 0" 0.148121  PostmanRuntime/7.1.5
+
+2018/07/12 14:34:24.641 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:34:24] "POST /v1/user/login HTTP/1.1 200 0" 0.597160  PostmanRuntime/7.1.5
+
+2018/07/12 14:35:24.052 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:35:24] "GET /v1/user/ HTTP/1.1 200 0" 0.002992  PostmanRuntime/7.1.5
+
+2018/07/12 14:35:35.347 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:35:35] "GET /v1/user/ HTTP/1.1 401 0" 0.002981  PostmanRuntime/7.1.5
+
+2018/07/12 14:35:53.110 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:35:53] "GET /v1/user/ HTTP/1.1 401 0" 0.003991  PostmanRuntime/7.1.5
+
+2018/07/12 14:36:09.285 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:36:09] "GET /v1/user/2 HTTP/1.1 401 0" 0.003989  PostmanRuntime/7.1.5
+
+2018/07/12 14:36:16.960 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:36:16] "POST /v1/user/login HTTP/1.1 200 0" 0.222447  PostmanRuntime/7.1.5
+
+2018/07/12 14:36:20.372 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:36:20] "POST /v1/user/login HTTP/1.1 200 0" 0.123234  PostmanRuntime/7.1.5
+
+2018/07/12 14:36:23.850 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:36:23] "POST /v1/user/login HTTP/1.1 200 0" 0.109994  PostmanRuntime/7.1.5
+
+2018/07/12 14:39:47.209 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:39:46] "POST /v1/user/register HTTP/1.1 201 0" 0.293586  PostmanRuntime/7.1.5
+
+2018/07/12 14:40:49.208 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:40:49] "POST /v1/user/login HTTP/1.1 200 0" 0.143506  PostmanRuntime/7.1.5
+
+2018/07/12 14:41:17.088 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:41:17] "GET /v1/user/2 HTTP/1.1 200 0" 0.006983  PostmanRuntime/7.1.5
+
+2018/07/12 14:41:22.054 [D] [server.go:2694] ::1 - - [12/Jul/2018 02:41:22] "GET /v1/user/ HTTP/1.1 200 0" 0.003990  PostmanRuntime/7.1.5
+
